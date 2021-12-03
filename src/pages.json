@@ -1,0 +1,56 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "index",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "user",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pagesPackage1",
+			"pages": []
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "最有料期限套",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"h5": {
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/tab_1_d.png",
+				"selectedIconPath": "static/tabbar/tab_1_s.png",
+				"text": "开单"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/tabbar/tab_2_d.png",
+				"selectedIconPath": "static/tabbar/tab_2_s.png",
+				"text": "预警"
+			}
+		]
+	}
+}

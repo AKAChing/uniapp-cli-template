@@ -1,0 +1,16 @@
+.common-shadow-top {
+	box-shadow: rgba(48, 51, 67, 0.07) 0px -2px 8px -4px;
+}
+
+.common-shadow-bottom {
+	box-shadow: rgba(48, 51, 67, 0.07) 0px 6px 10px -10px;
+}
+
+.common-shadow-around {
+	box-shadow: 0px 0px 16px 0px rgba(172, 172, 172, 0.22);
+}
+
+.common-safe-area {
+	padding: 20rpx 20rpx calc(20rpx + constant(safe-area-inset-bottom)) 20rpx;
+	padding: 20rpx 20rpx calc(20rpx + env(safe-area-inset-bottom)) 20rpx;
+}

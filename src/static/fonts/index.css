@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'iconfonts';  /* project id 1095188 */
+	src: url('https://at.alicdn.com/t/font_2737056_higyysnn95j.ttf') format('truetype');
+}
+
+.iconfonts {
+  font-family:"iconfonts" !important;
+  font-size: 28rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
